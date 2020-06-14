@@ -1,0 +1,52 @@
+table {
+    color:black;
+    border: 3px solid green;
+    border-collapse: collapse;
+
+}
+th, td {
+    border: 3px solid green;
+
+}
+th  {
+      background-color: #FF4000;
+      text-align: left;
+}
+#col1 {
+    width:20%;
+}
+#col2 {
+    width:75%;
+}
+#col3 {
+    width:20%;
+}
+#Achievements {
+  width: 1235px;
+  background-color: #5882FA;
+  font-size: 30px;
+  font-style: italic;
+
+}
+#UnlistAchivments {
+  width: 1235px;
+  background-color: #CEECF5;
+}
+#edge {
+  width: 1235px;
+  background-color: lightblue;
+}
+#data {
+    width: 1235px;
+    background-color: lightyellow;
+}
+@media (min-width: 600px) {
+  body {
+    background-color: lightgreen;
+  }
+}
+@media (max-width: 599px) {
+  body {
+    background-color: lightblue;
+  }
+}
